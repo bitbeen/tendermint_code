@@ -1,0 +1,38 @@
+=============== Feb 25, 2022 (CST) ===============
+23:57:41.413325 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:57:41.421634 db@open opening
+23:57:41.422634 version@stat F·[] S·0B[] Sc·[]
+23:57:41.423635 db@janitor F·2 G·0
+23:57:41.423635 db@open done T·2.0012ms
+23:57:54.773755 db@close closing
+23:57:54.773755 db@close done T·0s
+=============== Feb 25, 2022 (CST) ===============
+23:59:52.632182 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:59:52.639440 version@stat F·[] S·0B[] Sc·[]
+23:59:52.639440 db@open opening
+23:59:52.639440 journal@recovery F·1
+23:59:52.640431 journal@recovery recovering @1
+23:59:52.641433 memdb@flush created L0@2 N·65 S·9KiB "\x80\x81,v2":"\x84\xfeI..\x9d\x00\x01,v8"
+23:59:52.641433 version@stat F·[1] S·9KiB[9KiB] Sc·[0.25]
+23:59:52.643444 db@janitor F·3 G·0
+23:59:52.643444 db@open done T·4.0043ms
+=============== Feb 26, 2022 (CST) ===============
+00:11:17.456987 db@close closing
+00:11:17.457507 db@close done T·520.1µs
+=============== Apr 9, 2022 (CST) ===============
+19:16:58.864831 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:16:58.891475 version@stat F·[1] S·9KiB[9KiB] Sc·[0.25]
+19:16:58.891475 db@open opening
+19:16:58.891475 journal@recovery F·1
+19:16:58.893100 journal@recovery recovering @3
+19:16:58.899865 memdb@flush created L0@5 N·3375 S·546KiB "\x80\x8e,v68":"\x84\xff\x00..H\x00\x01,v1234"
+19:16:58.900388 version@stat F·[2] S·555KiB[555KiB] Sc·[0.50]
+19:16:58.903516 db@janitor F·4 G·0
+19:16:58.903516 db@open done T·12.041ms
+19:16:58.950406 table@compaction L0·2 -> L1·0 S·555KiB Q·3442
+19:16:58.957407 table@build created L1@8 N·2753 S·447KiB "\x80\x81,v2":"\x84\xff\x00..H\x00\x01,v1234"
+19:16:58.957407 version@stat F·[0 1] S·447KiB[0B 447KiB] Sc·[0.00 0.00]
+19:16:58.957407 table@compaction committed F-1 S-107KiB Ke·0 D·687 T·7.0012ms
+19:16:58.958416 table@remove removed @2
+19:17:03.877417 db@close closing
+19:17:03.877417 db@close done T·0s
